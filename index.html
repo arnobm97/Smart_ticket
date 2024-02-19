@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.28.0/dist/daisyui.min.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>P-Ticket</title>
+</head>
+<body>
+    <div class="flex flex-col items-center py-12 bg-white">
+        <div class="flex gap-5 justify-between items-center  w-full text-center  max-w-[1170px]">
+          <div class="flex gap-2.5 justify-between  my-auto text-4xl font-extrabold text-gray-950">
+            P-Ticket
+          </div>
+          <div class="flex gap-5 justify-between  p-2.5 my-auto text-lg font-medium text-gray-950 text-opacity-70">
+            <div>Home</div>
+            <div>About</div>
+            <div>Destination</div>
+            <div>Search</div>
+          </div>
+          <div class="flex gap-2.5 justify-between  px-8 py-4 text-xl font-bold text-[color:var(--primary-700,#1DD100)] rounded-xl border border-solid bg-lime-600 bg-opacity-10 border-lime-600 border-opacity-40 max-md:px-5">
+            <div>Bus</div>
+          <img src="./images/bus-icon.png" alt="">
+          </div>
+        </div>
+        <div class="flex overflow-hidden relative flex-col justify-center items-center px-16 py-12 mt-8 w-full text-center max-w-[1171px] min-h-[550px]">
+          <img srcset="./images/banner.png" class="object-cover absolute  w-full h-full"/>
+          <div class="flex relative flex-col items-center mt-10 mb-14 max-w-full w-[703px] max-md:mb-10">
+            <div class=" text-6xl font-extrabold text-white leading-[86px]  ">
+              End-to-End Travel with
+              <span class="text-[color:var(--primary-700,#1DD100)]">P Paribahan</span>
+            </div>
+            <div class="mt-11 text-lg leading-8 text-white" >
+              Yes, you can run unit tests and view the results directly within the
+              app. The integrated testing features allow for a streamlined .
+            </div>
+            <button id="buy-ticket-btn" class="justify-center px-8 py-5 mt-9 text-xl font-bold bg-[color:var(--primary-700,#1DD100)] rounded-xl text-gray-950 max-md:px-5">
+                Buy Tickets
+            </button>
+          </div>
+        </div>
+        <div class="z-10 px-5 mt-0 absolute bottom-28 max-w-full w-[971px] ">
+          <div class="flex gap-5 ">
+            <div class="flex flex-col w-[33%] ">
+              <div class="flex grow gap-4 justify-between items-start px-11 py-9 w-full  bg-white rounded-3xl border-solid border-b-[3px] border-b-[color:var(--primary-700,#1DD100)] ">
+                <img src="./images/people.png" alt="">
+                <div class="flex flex-col flex-1">
+                  <div class="text-3xl font-bold text-center text-gray-950">
+                    500K+
+                  </div>
+                  <div class="mt-3  text-gray-950 text-opacity-60">
+                    Registered users
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col ml-5 w-[33%] ">
+              <div class="flex grow gap-4 justify-between items-start px-10 py-9 w-full bg-white rounded-3xl border-solid border-b-[3px] border-b-[color:var(--primary-700,#1DD100)] ">
+                  <img src="./images/ticket-cupon.png" alt="">
+                <div class="flex flex-col flex-1 mt-1">
+                  <div class="text-3xl font-bold  text-gray-950">
+                    1.7 lacks
+                  </div>
+                  <div class="mt-3  text-gray-950 text-opacity-60">
+                    Tickets sold
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col ml-5 w-[33%] ">
+              <div class="flex grow gap-4 justify-between items-start py-9 pr-16 pl-8 w-full  bg-white rounded-3xl border-solid border-b-[3px] border-b-[color:var(--primary-700,#1DD100)] ">
+                <img src="./images/stoppage.png" alt="">
+                <div class="flex flex-col flex-1">
+                  <div class="text-3xl font-bold text-gray-950">80K+</div>
+                  <div class="mt-3  text-gray-950 text-opacity-60">
+                    Rental partners
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-32 text-4xl font-bold text-center  text-gray-950 max-md:mt-10">
+          Best offers for you
+        </div>
+        <div class="mt-12 w-full max-w-[1170px]">
+          <div class="flex gap-5 ">
+            <div class="flex flex-col w-6/12 ">
+             <img src="./images/Group 113.png" alt="">
+            </div>
+            <div class="flex flex-col ml-5 w-6/12 ">
+              <div class="flex grow gap-5 justify-between items-center px-12 w-full bg-red-300 rounded-3xl ">
+                <div class="my-auto text-lg leading-9 text-gray-950 text-opacity-50">
+                  <span class="text-4xl font-black text-gray-950">20% OFF</span>
+                  <br />
+                  <span class="text-xl font-semibold text-gray-950">
+                    on your next purchase
+                  </span>
+                  <br />
+                  <span class="font-medium text-gray-950 text-opacity-40">use by January 2024</span>
+                </div>
+                <img  src="https://cdn.builder.io/api/v1/image/assets/TEMP/14357319118da7e87f53fde507b5051c4664c695e0e15ec25aedeea4d99d5923?" class=" w-12 aspect-[0.22]"/>
+                <div class="my-auto text-3xl font-bold text-center  text-gray-950 ">
+                  Couple 20
+                  <br />
+                  <span class="text-xl font-medium leading-9 text-gray-950 text-opacity-40">
+                    Coupon Code
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="justify-center px-8 py-5 mt-16 text-xl font-bold text-center text-[color:var(--primary-700,#1DD100)]  rounded-xl border border-solid border-[color:var(--primary-700,#1DD100)]">
+          See All Offers
+        </div>
+        <div id="ticket-section" class="flex flex-col items-center  px-5 pt-12 mt-32 w-full border-t-2 border-solid shadow-sm bg-stone-50 border-t-[color:var(--primary-700,#1DD100)] rounded-[88px_88px_0px_0px]">
+          <div class="mt-20 text-4xl font-bold text-center  text-gray-950 max-md:mt-10">
+            P.H Paribahan
+          </div>
+          <div class="mt-11 text-lg leading-8 text-center text-gray-950 text-opacity-60 w-[736px]">
+            Yes, you can run unit tests and view the results directly within the app.
+            The integrated testing features allow for a streamlined .
+          </div>
+          <div class="flex gap-5 justify-between items-center pr-16 pl-8 mt-14 max-w-full bg-white rounded-3xl w-[1170px] ">
+            <div class="flex flex-col flex-1  my-auto ">
+              <div class="flex gap-5 justify-between w-full">
+                <div class="flex gap-4 justify-between">
+               
+                  <div class="flex flex-col flex-1">
+                    <div class="text-3xl font-bold text-center  text-gray-950">
+                      Greenline Paribahan
+                    </div>
+                    <div class=" text-lg text-gray-950 text-opacity-60">
+                      Coach-009-WEB ! AC_Business
+                    </div>
+                  </div>
+                </div>
+                <div class="flex gap-2 self-start px-4 py-3.5 text-lg font-medium text-[color:var(--primary-700,#1DD100)]  rounded-xl bg-lime-600 bg-opacity-10">
+                    <img src="./images/seat-green.png" alt="">
+                  <div id="seats-left" class="  grow my-auto">40 Seats left</div>
+                </div>
+              </div>
+              <div class="flex flex-col px-8 py-9 mt-7 text-lg font-semibold rounded-3xl bg-stone-50">
+                <div class="flex gap-5 justify-between">
+                  <div class=" flex-auto text-gray-950 text-opacity-60">Route</div>
+                  <div class=" text-gray-950">Dhaka - Sylhet</div>
+                </div>
+                <div class=" mt-6 h-px bg-gray-950 bg-opacity-20 "></div>
+                <div class="flex gap-5 justify-between mt-7">
+                  <div class="flex-auto text-gray-950 text-opacity-60">
+                    Departure Time
+                  </div>
+                  <div class="text-gray-950">9:00 PM</div>
+                </div>
+                <div class=" mt-6 h-px bg-gray-950 bg-opacity-20 "></div>
+                <div class="flex gap-5 justify-between mt-6 text-base font-medium  text-gray-950 text-opacity-80">
+                  <div class="grow justify-center px-4 py-5 rounded-xl bg-gray-950 bg-opacity-10">
+                    Boarding Point - Laxmipur
+                  </div>
+                  <div class="grow justify-center px-6 py-5 rounded-xl bg-gray-950 bg-opacity-10 max-md:px-5">
+                    Dropping Point - Bogura
+                  </div>
+                  <div class="grow justify-center px-11 py-6 rounded-xl bg-gray-950 bg-opacity-10 max-md:px-5">
+                    Est. Time - 11 Hour
+                  </div>
+                </div>
+              </div>
+            </div>
+              <img  src="./images/info-devider.png" alt="">
+            <div class="flex flex-col  my-auto text-3xl font-bold leading-10 text-center  text-gray-950 text-opacity-60">
+              <img class="w-12 h-12 " src="./images/fare.png" alt="">
+              <span class="mt-8 font-semibold text-gray-950">
+                550 Taka
+              </span>
+                <div class="text-2xl" >Per Seat</div>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-5 justify-between p-8 mt-7 w-full bg-white rounded-3xl max-w-[1170px] ">
+            <div class="flex flex-col flex-1 mt-1 text-lg font-medium ">
+              <div class="text-2xl font-semibold  text-gray-950 ">
+                Select Your Seat
+              </div>
+              <div class=" mt-7 h-px bg-gray-950 bg-opacity-20 "></div>
+              <div class="flex gap-5 justify-between px-0.5 mt-4 w-full ">
+                <div class="flex gap-2 justify-between text-gray-950 text-opacity-50">
+                 <img src="./images/seat-gray.png" alt="">
+                  <div class="grow my-auto">Available</div>
+                </div>
+                <div class="flex gap-2 justify-between text-[color:var(--primary-700,#1DD100)]">
+                 <img src="./images/seat-green-filled.png" alt="">
+                  <div class="grow my-auto">Selected</div>
+                </div>
+              </div>
+              <div class=" mt-4 h-px bg-gray-950 bg-opacity-20 "></div>
+                  <img class="w-[110px] h-[56px]  mt-4 ml-[420px] " src="./images/wheel.png" alt="">
+                  <div id="seatContainer">
+              <div class="flex gap-5 justify-between mt-6 w-full  text-gray-950 text-opacity-50">
+                <div class="flex gap-5 justify-between">
+                  <div class="grow my-auto">A</div>
+                  <div class="grow justify-center px-11 py-6 rounded-xl bg-stone-50 seat">
+                    A1
+                  </div>
+                  <div class="grow justify-center px-11 py-6 rounded-xl bg-stone-50 seat">
+                    A2
+                  </div>
+                </div>
+                <div class="flex gap-5 justify-between">
+                  <div class="grow justify-center px-11 py-6 rounded-xl bg-stone-50 seat">
+                    A3
+                  </div>
+                  <div class="grow justify-center px-11 py-6 rounded-xl bg-stone-50 seat">
+                    A4
+                  </div>
+                </div>
+              </div>
+              <div class="flex gap-5 justify-between mt-6 w-full  text-gray-950 text-opacity-50">
+                <div class="flex gap-5 justify-between">
+                  <div class="my-auto">B</div>
+                  <div class="grow justify-center px-11 py-6 rounded-xl bg-stone-50 seat">
+                    B1
+                  </div>
+                  <div class="grow justify-center px-11 py-6 rounded-xl bg-stone-50 seat">
+                    B2
+                  </div>
+                </div>
+                <div class="flex gap-5 justify-between">
+                  <div class="grow justify-center px-11 py-6 rounded-xl bg-stone-50 seat">
+                    B3
+                  </div>
+                  <div
+                    class="grow justify-center px-11 py-6 rounded-xl bg-stone-50 seat">
+                    B4
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div id="select-your-seat-section" class="w-0.5 bg-gray-950 bg-opacity-30 h-[992px]"></div>
+            <div class="flex flex-col flex-1 self-start mt-1 ">
+              <div class="text-2xl font-semibold  text-gray-950 ">
+                Select Your Seat
+              </div>
+              <div class=" mt-7 h-px bg-gray-950 bg-opacity-20 "></div>
+              <div class="flex flex-col px-8 py-9 mt-6 rounded-xl bg-stone-50">
+                <div class="flex  justify-between w-full text-base font-medium  text-gray-950">
+                  <div class="flex w-full ">
+                    <div id="seats-added" class="grow">Seat</div>
+                    <div class="grow ">Class</div>
+                  <div >Price</div>
+                </div>
+                </div>
+                <div class=" mt-4 h-px bg-gray-950 bg-opacity-20"></div>
+                <div class="flex gap-5 justify-between mt-5 text-base font-medium text-gray-950">
+                  <div class="mb-2">Total Price</div>
+                  <div id="total-price"></div>
+                </div>
+                <div >
+                  <div class="flex items-center  my-2" id="couponSection">
+                    <input type="text" id="couponCode" class="border border-gray-300 rounded-2xl px-2 ml-2 w-full h-14 placeholder:text-gray-500" placeholder="Have any coupon?">
+                    <button type="button" id="applyButton" class="bg-[color:var(--primary-700,#1DD100)] text-white px-3 py-1 rounded-2xl w-20 h-12 ml-2" >Apply</button>
+                </div>
+              </div>
+                <div class="flex gap-5 justify-between mt-7 text-base font-medium text-gray-950">
+                  <div>Grand Total</div>
+                  <div id="grandTotal"></div>
+                </div>
+              </div>
+             
+              <button id="openModalButton" class="justify-center items-center px-16 py-5 mt-6 text-xl font-extrabold text-center text-white  bg-[color:var(--primary-700,#1DD100)] rounded-2xl">
+                Next
+            </button>
+            
+    
+            <div id="modalContainer" class="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-900 bg-opacity-50 hidden">
+                <div class="bg-white rounded-lg p-6">
+                    <img id="imageInModal" src=""  class="w-full h-auto">
+                    <button id="closeModalButton" class="mt-4 bg-gray-400 text-white py-2 px-4 rounded">Close</button>
+                </div>
+            </div>
+              <div class="flex gap-5 justify-between self-center mt-7 text-base text-gray-950 text-opacity-60">
+                <div class="flex-auto underline">Terms and Conditions</div>
+                <div class="flex-auto underline">Cancellation Policy</div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <script src="./utility.js"></script>
+</body>
+</html>
