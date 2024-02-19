@@ -73,11 +73,12 @@ seatElements.forEach((seat, i) => {
     updateTotalPrice();
     const updatedTotalPrice = updateTotalPrice(totalPrice);
     parseInt(totalPrice);
-    const discountedPrice = updatedTotalPrice - (totalPrice * discount);
+    const discountedPrice = (totalPrice * discount);
+     const grandtotalprice=totalPrice-discountedPrice;
     console.log('Discounted price:', discountedPrice);
 
    
     document.getElementById('couponSection').style.display = 'none';
 
-    document.getElementById('grandTotal').innerText = '' + discountedPrice;
+    document.getElementById('grandTotal').innerText = '' + grandtotalprice;
 });
